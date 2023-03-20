@@ -11,3 +11,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-weather{
+  flex-wrap: wrap;
+
+}
+.favorite-container {
+  background-color: #e7a089;
+  border-radius: 7px;
+  height:6rem;
+  width: 15rem;
+  margin:1rem;
+  color:black
+  
+}
+
+.btn {
+  text-decoration: none;
+  
+  background-color: #49B7DA ;
+
+  color: white;
+  border-radius: 4px;
+  
+}
+
+.search-box {
+ display: flex;
+ justify-content: center;
+
+}
+
+.search {
+  width: 9rem;
+}
+
+.search-btn {
+  background-color: #49B7DA;
+  color: white;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+  height:25px;
+  width:5rem;
+}
+
+ul {
+  color:white;
+  display: flex;
+  margin-right: 2rem;
+  align-content: right;
+  position:relative;
+}
+li {
+  text-decoration: none;
+  margin-right: 2rem;
+  padding: 5px;
+  list-style-type: none;
+  color: white;
+  flex-direction: row;
+    
+}
+a {
+  color: white;
+  width: 10rem;
+  height: 20px;
+}
+
+.weather-box {
+ background-color: #e7a089;
+ color: black;
+ border-radius: 1rem;
+}
+
+.city-display {
+  color: white;
+  text-transform: uppercase;
+}
+.fav-city {
+  text-transform: uppercase;
+}
+
+.tempTwo {
+  background-color: #49B7DA ;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  height:2rem;
+}
+.tempOne {
+  background-color: #da6449 ;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  height:2rem;
+}
+.tempThree {
+  background-color: white;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  height:2rem;
+}
+
